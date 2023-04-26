@@ -11,6 +11,7 @@
 body {
 	background-image:url('images/purple-flames.jpg');
 	background-repeat:repeat;
+  	background-attachment: fixed;
 }
 
 .flex-container {
