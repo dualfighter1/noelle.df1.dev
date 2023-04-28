@@ -37,6 +37,10 @@ body {
 	font-style: normal;
 }
 
+.center{
+  margin: auto;
+}
+
 details > summary {
 	list-style: none;
 }

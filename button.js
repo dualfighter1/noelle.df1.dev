@@ -1,6 +1,6 @@
 function openSection(evt, sectionName) {
   // Declare all variables
-  var i, tabcontent;
+  var i, tabcontent, blogcontent;
 
   // Get all elements with class="tabcontent" and hide them
   tabcontent = document.getElementsByClassName("tabcontent");
