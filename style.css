@@ -9,9 +9,16 @@
 }
 
 body {
-	background-image:url('images/purple-flames.jpg');
-	background-repeat:repeat;
-  	background-attachment: fixed;
+  animation: pulse 20s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    background-color: #7c1eb3;
+  }
+  50% {
+    background-color: #a14fd1;
+  }
 }
 
 .flex-container {
