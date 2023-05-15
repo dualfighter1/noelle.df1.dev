@@ -14,10 +14,10 @@ body {
 
 @keyframes pulse {
   0%, 100% {
-    background-color: #7c1eb3;
+    background-color: #07b7b7;
   }
   50% {
-    background-color: #a14fd1;
+    background-color: #047e7e;
   }
 }
 
@@ -27,14 +27,14 @@ body {
 
 
 .flex-container > div {
-  background-color: #1f001f;
+  background-color: #023535;
   color: white;
   width: 100px;
   margin: 10px;
   text-align: center;
   line-height: 75px;
   font-size: 30px;
-  border: 6px solid #340067;
+  border: 6px solid #294856;
   border-radius: 10px;
 }
 @font-face {
