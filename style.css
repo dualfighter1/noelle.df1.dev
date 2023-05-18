@@ -14,11 +14,11 @@ body {
 
 @keyframes pulse {
   0%, 100% {
-    background-color: #07b7b7;
+    background-color: #178ab4;
   }
   50% {
-    background-color: #047e7e;
-  }
+    background-color: #b4178a;
+	}
 }
 
 .flex-container {
@@ -32,10 +32,9 @@ body {
   width: 100px;
   margin: 10px;
   text-align: center;
-  line-height: 75px;
   font-size: 30px;
   border: 6px solid #294856;
-  border-radius: 10px;
+  border-radius: 75px;
 }
 @font-face {
 	font-family: nasalizationregular;
@@ -69,6 +68,7 @@ h1 {
 	font-weight:normal;
 	font-style:normal;
 	color: #c7c7c7;
+  	font-size: 25px;
 }
 p {
 	font-family: 'nasalizationregular', Arial, sans-serif;
