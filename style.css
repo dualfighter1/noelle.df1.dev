@@ -5,22 +5,45 @@
 	gap: 10px;
 	line-height: normal;
 }
-
-body {
-  animation: pulse 20s infinite;
+.navcontainer {
+	display: flex;
+	align-items: left;
+	justify-content: left;
+	gap: 10px;
+    margin-top:5px;
+}
+.navcontainercent {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+    margin-top:5px;
 }
 
-@keyframes pulse {
-  0%, 100% {
-    background-color: #178ab4;
-  }
-  50% {
-    background-color: #b4178a;
-	}
+body {
+  background-color: #442288;
 }
 
 .flex-container {
   	display: flex;
+}
+
+nav {
+    background-color: #808080;
+    border: 3px solid #707070;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+    color: #888;
+    display: block;
+    margin: 8px 22px 8px 22px;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.right {
+  display: block;
+  margin-left: auto;
 }
 
 
@@ -47,15 +70,11 @@ body {
   margin: auto;
 }
 
-details > summary {
-	list-style: none;
-}
-
 a:link {
 	font-family: 'nasalizationregular', Arial, sans-serif;
 	font-weight:normal;
 	font-style:normal;
-	color: #FFFFFF;
+	color: #fff;
 }
 a:visited {
 	font-family: 'nasalizationregular', Arial, sans-serif;
@@ -67,13 +86,13 @@ h1 {
 	font-family: 'nasalizationregular', Arial, sans-serif;
 	font-weight:normal;
 	font-style:normal;
-	color: #c7c7c7;
+	color: #000;
   	font-size: 25px;
 }
 p {
 	font-family: 'nasalizationregular', Arial, sans-serif;
 	font-weight:normal;
 	font-style:normal;
-	color: #c7c7c7;
+	color: #000;
   	font-size: 15px;
 }
