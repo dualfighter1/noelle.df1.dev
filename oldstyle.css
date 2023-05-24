@@ -1,0 +1,79 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	line-height: normal;
+}
+
+body {
+  animation: pulse 20s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    background-color: #178ab4;
+  }
+  50% {
+    background-color: #b4178a;
+	}
+}
+
+.flex-container {
+  	display: flex;
+}
+
+
+.flex-container > div {
+  background-color: #023535;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+  border: 6px solid #294856;
+  border-radius: 35px;
+  margin-top:10px;
+  margin-bottom:-25px;
+}
+@font-face {
+	font-family: nasalizationregular;
+	src: url("font.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.center{
+  margin: auto;
+}
+
+details > summary {
+	list-style: none;
+}
+
+a:link {
+	font-family: 'nasalizationregular', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	color: #FFFFFF;
+}
+a:visited {
+	font-family: 'nasalizationregular', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	color: #ff85ff;
+}
+h1 {
+	font-family: 'nasalizationregular', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	color: #c7c7c7;
+  	font-size: 25px;
+}
+p {
+	font-family: 'nasalizationregular', Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	color: #c7c7c7;
+  	font-size: 15px;
+}
