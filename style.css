@@ -12,3 +12,20 @@ body {
   margin-right: 0;
   margin-left: 0;
 }
+
+#mothvertisement {
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    max-width: 738px;
+    width: 100%;
+    height: 100px;
+}
+
+@media (max-width: 750px) {
+    #mothvertisement {
+        max-width: 300px;
+        width: 100%;
+        height: 250px;
+    }
+}
