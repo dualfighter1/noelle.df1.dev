@@ -5,10 +5,6 @@ Make OC page:
 	Commision Images of OCs:
 		Get a proper Job
 
-Make Projects Page:
-	Add noelle.df1.dev to Projects page:
-		Create Individual Project Page
-
 Make Nexus Technicians Page:
 	Add Nexus Technicians Home Page (Easily Seperable from noelle.df1.dev for when i get domain.)
 	Create Projects page:
