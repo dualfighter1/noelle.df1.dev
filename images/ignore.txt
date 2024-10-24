@@ -1,0 +1,1 @@
+This folder and image are here purely for those that hotlinked to my site, eventually i hope to work with them to have the hotlink lead to the actual main image at assets/88x31/noelle.png

@@ -1,31 +1,260 @@
-body {
-  font-family: 'nasalizationregular', Arial, sans-serif;
+:root {
+  --primary: #cba6f7;
+  --text: #cdd6f4;
 }
 @font-face {
-	font-family: nasalizationregular;
-	src: url("font.ttf");
-	font-weight: normal;
-	font-style: normal;
+  font-family: "Nasalization";
+  src: url(assets/fonts/nasalization-rg.woff2) format("woff2"),
+    url(assets/fonts/nasalization-rg.otf) format("opentype");
 }
-.row {
-  margin-top: 0;
-  margin-right: 0;
-  margin-left: 0;
+body {
+  background: #1e1e2e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
 }
-
+a {
+  outline: 1px solid transparent;
+  transition: outline 0.3s;
+}
+.hoverOutline:hover {
+  outline: 1px solid var(--primary);
+}
+.panel {
+  border-radius: 64px;
+  border-left: 1px solid color-mix(in srgb, transparent, var(--primary) 55%);
+  border-top: 1px solid color-mix(in srgb, transparent, var(--primary) 55%);
+  background: linear-gradient(145deg, #202031, #1b1b29);
+  box-shadow: 15px 15px 30px #151521, -15px -15px 30px #27273b,
+    -4px -4px 8px color-mix(in srgb, transparent, var(--primary) 25%);
+}
+header {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  flex: 1;
+  margin: 2vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.inset-panel {
+  border-radius: 32px;
+  background: #1e1e2e;
+  box-shadow: inset 15px 15px 30px #151521, inset -15px -15px 30px #27273b;
+}
+#navbar {
+  margin: 16px 0px;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid var(--text);
+  padding: 16px;
+  max-width: 80%;
+  flex: 1;
+  justify-content: center;
+}
+.navlink {
+  text-decoration: underline solid transparent;
+  padding-left: 16px;
+  padding-right: 16px;
+  transition: text-decoration 0.3s;
+  display: flex;
+  align-items: center;
+}
+.navlink:hover {
+  text-decoration: underline solid var(--text);
+}
+.navlink > p {
+  font-family: "Nasalization";
+  font-size: 2em;
+  text-decoration: none;
+  color: var(--text);
+  margin: 8px;
+}
+p {
+  font-family: "Nasalization";
+  font-size: 1em;
+  text-decoration: none;
+  color: var(--text);
+  margin: 8px;
+}
+.navlink + .navlink {
+  border-left: 1px solid var(--text);
+}
+header > h1 {
+  font-family: "Nasalization";
+  color: transparent;
+  font-size: 6em;
+  -webkit-text-stroke: 2px var(--primary);
+  margin: 16px 0px 0px 0px;
+}
+main {
+  flex: 3;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+}
+.mainChild {
+  flex: 1;
+  margin: 32px;
+}
+#other {
+  display: flex;
+  flex-direction: column;
+}
 #mothvertisement {
-    margin-left: auto;
-    display: block;
-    margin-right: auto;
-    max-width: 738px;
-    width: 100%;
-    height: 100px;
+  align-self: center;
+  border-radius: 16px;
+  max-width: 728px;
+  width: 100%;
+  height: 90px;
+  background: #1e1e2e;
+  border-left: 1px solid color-mix(in srgb, transparent, var(--primary) 55%);
+  border-top: 1px solid color-mix(in srgb, transparent, var(--primary) 55%);
+  box-shadow: 8px 8px 21px #14141f, -8px -8px 21px #28283d;
+  margin-bottom: 64px;
 }
-
+#description {
+  background-image: url(assets/persona/noelle.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
 @media (max-width: 750px) {
-    #mothvertisement {
-        max-width: 300px;
-        width: 100%;
-        height: 250px;
-    }
+  #mothvertisement {
+    max-width: 300px;
+    width: 100%;
+    height: 250px;
+  }
+}
+#socials {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+}
+.social {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  text-decoration: none;
+}
+.social + .social {
+  margin-top: 32px;
+}
+.social-icon {
+  flex: 0.5;
+  display: flex;
+  margin-right: 16px;
+}
+.social-icon > img {
+  width: 100%;
+}
+.social-name {
+  display: flex;
+  align-items: center;
+  border-left: 1px solid var(--text);
+  padding-left: 32px;
+  flex: 5;
+}
+.social-name > p {
+  font-family: "Nasalization";
+  color: var(--text);
+  font-size: 2em;
+  margin: 0px;
+}
+#other > div {
+  flex: 1;
+}
+footer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+#buttons {
+  flex: 1;
+  display: flex;
+  width: 100%;
+  margin: 32px;
+}
+.button-panel {
+  flex: 1;
+  margin: 16px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.button-panel + .button-panel {
+  border-left: 1px solid color-mix(in srgb, transparent, var(--primary) 55%);
+}
+.button {
+  margin: 4px 8px;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.button:hover {
+  opacity: 1;
+}
+.button > picture {
+  display: flex;
+}
+.button > picture > img {
+  image-rendering: pixelated;
+  width: 88px;
+  height: 31px;
+}
+#authors {
+  display: inline-flex;
+  margin: 32px;
+  padding: 16px;
+  align-items: center;
+}
+#authors > p{
+    font-size: 1em;
+}
+@media screen and (orientation: portrait) {
+  header > h1 {
+    font-size: 10vw;
+  }
+  .navlink > p {
+    font-size: 3vw;
+  }
+  .navlink{
+    padding-left: unset;
+    padding-right: unset;
+  }
+  main {
+    flex-direction: column;
+    width: 90%;
+  }
+  .mainChild{
+    margin: 2vh;
+  }
+  #socials{
+    flex-direction: row;
+    padding: 16px;
+  }
+  .social + .social {
+    margin-top: unset;
+}
+  .social {
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: unset;
+    margin: 0px 1vw;
+  }
+  .social-icon{
+    flex: 0.5;
+    margin-right: unset;
+  }
+  .social-name{
+    display: none;
+  }
 }
