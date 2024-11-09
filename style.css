@@ -74,11 +74,25 @@ header {
   margin: 8px;
 }
 p {
-  font-family: "Nasalization";
-  font-size: 1em;
-  text-decoration: none;
-  color: var(--text);
-  margin: 8px;
+    font-family: "Nasalization";
+    font-size: 1em;
+    text-decoration: none;
+    color: var(--text);
+    margin: 8px;
+}
+h1 {
+    font-family: "Nasalization";
+    text-align: center;
+    text-decoration: none;
+    color: var(--text);
+    margin: 8px;
+}
+.panel > a {
+    font-family: "Nasalization";
+    text-align: center;
+    text-decoration: none;
+    color: var(--text);
+    margin: 8px;
 }
 .navlink + .navlink {
   border-left: 1px solid var(--text);
@@ -130,9 +144,14 @@ main {
   }
 }
 #socials {
-  display: flex;
-  flex-direction: column;
-  padding: 32px;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+}
+#recipes {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
 }
 .social {
   flex: 1;
