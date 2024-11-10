@@ -56,15 +56,22 @@ header {
   justify-content: center;
 }
 .navlink {
-  text-decoration: underline solid transparent;
-  padding-left: 16px;
-  padding-right: 16px;
-  transition: text-decoration 0.3s;
-  display: flex;
-  align-items: center;
+    text-decoration: underline solid transparent;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: text-decoration 0.3s;
+    display: flex;
+    align-items: center;
 }
 .navlink:hover {
-  text-decoration: underline solid var(--text);
+    text-decoration: underline solid var(--text);
+}
+.drinklink {
+    text-decoration: underline solid transparent;
+    transition: text-decoration 0.3s;
+}
+.drinklink:hover {
+   text-decoration: underline solid var(--text);
 }
 .navlink > p {
   font-family: "Nasalization";
@@ -87,12 +94,18 @@ h1 {
     color: var(--text);
     margin: 8px;
 }
-.panel > a {
+h2 {
     font-family: "Nasalization";
     text-align: center;
     text-decoration: none;
     color: var(--text);
     margin: 8px;
+}
+.panel > a {
+    font-family: "Nasalization";
+    text-align: center;
+    color: var(--text);
+    font-size: 1.5em;
 }
 .navlink + .navlink {
   border-left: 1px solid var(--text);
