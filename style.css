@@ -87,6 +87,9 @@ p {
     color: var(--text);
     margin: 8px;
 }
+.panel > p {
+    text-align: center;
+}
 h1 {
     font-family: "Nasalization";
     text-align: center;
