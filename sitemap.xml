@@ -9,13 +9,23 @@
 
 <url>
   <loc>https://noelle.df1.dev/</loc>
-  <lastmod>2024-11-11T00:54:00+00:00</lastmod>
+  <lastmod>2024-11-19T15:10:21+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://noelle.df1.dev/drinks</loc>
-  <lastmod>2024-11-10T20:14:41+00:00</lastmod>
+  <loc>https://noelle.df1.dev/bio</loc>
+  <lastmod>2024-11-26T09:55:52+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://noelle.df1.dev/drinks</loc>
+  <lastmod>2024-11-26T09:55:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://noelle.df1.dev/drinks/v1</loc>
+  <lastmod>2024-11-26T09:55:52+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
