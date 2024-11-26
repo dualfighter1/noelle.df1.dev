@@ -216,16 +216,16 @@ footer {
   display: flex;
   width: 100%;
   margin: 32px;
-  margin-top: 50px;
 }
 .button-panel {
-  flex: 1;
-  margin: 16px;
-  padding: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+    flex: 1;
+    margin: 16px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
 }
 .button-panel + .button-panel {
   border-left: 1px solid color-mix(in srgb, transparent, var(--primary) 55%);
