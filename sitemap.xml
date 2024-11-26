@@ -18,6 +18,16 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://noelle.df1.dev/projects</loc>
+  <lastmod>2024-11-26T14:56:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://noelle.df1.dev/ocs</loc>
+  <lastmod>2024-11-26T14:56:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://noelle.df1.dev/drinks</loc>
   <lastmod>2024-11-26T09:55:52+00:00</lastmod>
   <priority>0.80</priority>
