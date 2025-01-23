@@ -262,7 +262,6 @@ footer {
 }
 
 #textcontent {
-    display: inline-flex;
     margin: 32px;
     padding: 16px;
     align-items: center;
