@@ -26,6 +26,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="/assets/main/favicon.ico">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
 </head>
 
 <body>
@@ -94,37 +95,37 @@
             <div class="button-panel">
                 <a class="button" href="https://utsuho.rocks/" target="_blank">
                     <picture>
-                        <img src="assets/88x31/utsuhorocks.png" alt="Utsuho Rock's Site" loading="lazy">
+                        <img src="assets/88x31/utsuhorocks.png" class="lozad" alt="Utsuho Rock's Site" loading="lazy">
                     </picture>
                 </a>
                 <a class="button" href="https://fleepy.tv/" target="_blank" data-neko="true">
                     <picture>
-                        <img src="assets/88x31/fleepy.png" alt="Fleepy's Site" loading="lazy">
+                        <img src="assets/88x31/fleepy.png" alt="Fleepy's Site" class="lozad" loading="lazy">
                     </picture>
                 </a>
                 <a class="button" href="https://marisakirisame.net/" target="_blank">
                     <picture>
-                        <img src="assets/88x31/marisa.png" alt="Marisa's site" loading="lazy">
+                        <img src="assets/88x31/marisa.png" alt="Marisa's site" class="lozad" loading="lazy">
                     </picture>
                 </a>
                 <a class="button" href="https://nano.lgbt/" target="_blank" data-neko="true">
                     <picture>
-                        <img src="assets/88x31/nano.png" alt="Nano's site" loading="lazy">
+                        <img src="assets/88x31/nano.png" alt="Nano's site" class="lozad" loading="lazy">
                     </picture>
                 </a>
                 <a class="button" href="https://zenthefox.online/" target="_blank">
                     <picture>
-                        <img src="assets/88x31/zen.gif" alt="Zen's site" loading="lazy">
+                        <img src="assets/88x31/zen.gif" alt="Zen's site" class="lozad" loading="lazy">
                     </picture>
                 </a>
                 <a class="button" href="https://onz.ee/?utm_source=noelle.df1.dev" target="_blank" data-neko="true">
                     <picture>
-                        <img src="assets/88x31/onzecki.png" alt="Onzecki's Site" loading="lazy">
+                        <img src="assets/88x31/onzecki.png" alt="Onzecki's Site" class="lozad" loading="lazy">
                     </picture>
                 </a>
                 <a class="button" href="http://radmin.nyanfurrypa.ws/" target="_blank">
                     <picture>
-                        <img src="assets/88x31/radmin.png" alt="Radmins's site" loading="lazy">
+                        <img src="assets/88x31/radmin.png" alt="Radmins's site" class="lozad" loading="lazy">
                     </picture>
                 </a>
                 <!-- <a class="button" href="https://neko.ac/" target="_blank">
@@ -136,22 +137,22 @@
             <div class="button-panel">
                 <a class="button" href="https://eightyeightthirty.one/#noelle.df1.dev" target="_blank">
                     <picture>
-                        <img src="assets/88x31/88x31.png" alt="88x31 Universe" loading="lazy">
+                        <img src="assets/88x31/88x31.png" alt="88x31 Universe" class="lozad" loading="lazy">
                     </picture>
                 </a>
                 <a class="button" href="https://foxwells.garden/" target="_blank">
                     <picture>
-                        <img src="assets/88x31/foxwells.gif" alt="Foxwells Garden" loading="lazy">
+                        <img src="assets/88x31/foxwells.gif" alt="Foxwells Garden" class="lozad" loading="lazy">
                     </picture>
                 </a>
                 <a class="button" href="https://caddyserver.com/" target="_blank">
                     <picture>
-                        <img src="assets/88x31/caddy.png" alt="Link To Caddy" loading="lazy">
+                        <img src="assets/88x31/caddy.png" alt="Link To Caddy" class="lozad" loading="lazy">
                     </picture>
                 </a>
                 <a class="button" href="https://contabo.com/" target="_blank">
                     <picture>
-                        <img src="assets/88x31/contabo.png" alt="Link To Caddy" loading="lazy">
+                        <img src="assets/88x31/contabo.png" alt="Link To Caddy" class="lozad" loading="lazy">
                     </picture>
                 </a>
                 <iframe frameBorder="0" src="https://adverts.df1.dev/8831" id="advertisement88" class="button"></iframe>
@@ -161,18 +162,22 @@
             <p>Co-Created by</p>
             <a class="button" href="https://noelle.df1.dev">
                 <picture>
-                    <img src="assets/88x31/noelle.png" alt="My site! (This one!)" loading="lazy">
+                    <img src="assets/88x31/noelle.png" alt="My site! (This one!)" class="lozad" loading="lazy">
                 </picture>
             </a>
             <p>and</p>
             <a class="button" href="https://onz.ee/?utm_source=noelle.df1.dev" target="_blank" data-neko="true">
                 <picture>
-                    <img src="assets/88x31/onzecki.png" alt="Onzecki's Site" loading="lazy">
+                    <img src="assets/88x31/onzecki.png" alt="Onzecki's Site" class="lozad" loading="lazy">
                 </picture>
             </a>
         </div>
     </footer>
     <script src="oneko-webring.js"></script>
+    <script>
+        const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+        observer.observe();
+    </script>
 </body>
 
 </html>
