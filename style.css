@@ -252,6 +252,7 @@ footer {
   height: 31px;
 }
 #authors {
+  display: inline-flex;
   margin: 32px;
   padding: 16px;
   align-items: center;
@@ -259,6 +260,18 @@ footer {
 #authors > p{
     font-size: 1em;
 }
+
+#textcontent {
+    display: inline-flex;
+    margin: 32px;
+    padding: 16px;
+    align-items: center;
+}
+
+#textcontent > p {
+    font-size: 1em;
+}
+
 @media screen and (orientation: portrait) {
   header > h1 {
     font-size: 10vw;
