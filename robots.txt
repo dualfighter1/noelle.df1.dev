@@ -1,0 +1,7 @@
+User-agent: GPTBot
+Disallow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://noelle.df1.dev/sitemap.xml
