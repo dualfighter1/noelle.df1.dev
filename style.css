@@ -252,7 +252,6 @@ footer {
   height: 31px;
 }
 #authors {
-  display: inline-flex;
   margin: 32px;
   padding: 16px;
   align-items: center;
