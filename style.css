@@ -104,6 +104,20 @@ h2 {
     color: var(--text);
     margin: 8px;
 }
+h3 {
+    font-family: "Nasalization";
+    text-align: center;
+    text-decoration: none;
+    color: var(--text);
+    margin: 8px;
+}
+h4 {
+    font-family: "Nasalization";
+    text-align: center;
+    text-decoration: none;
+    color: var(--text);
+    margin: 8px;
+}
 .panel > a {
     font-family: "Nasalization";
     text-align: center;
